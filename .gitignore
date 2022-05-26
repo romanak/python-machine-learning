@@ -1,13 +1,61 @@
+# Ch16 data files
+ch16/models/
+ch16/movie_data.csv
+
+# Ch15 data files
+ch15/models/
+
+# Ch14 data files
+ch14/models/
+
+# Ch13 data files
+ch13/iris-classifier.h5
+
+# Ch12 data files
+ch12/mnist_scaled.npz
+ch12/t10k-images-idx3-ubyte.gz
+ch12/t10k-labels-idx1-ubyte.gz
+ch12/train-images-idx3-ubyte.gz
+ch12/train-labels-idx1-ubyte.gz
+
+# Ch18 data files
+ch08/aclImdb/
+ch08/aclImdb_v1.tar.gz
+ch08/movie_data.csv
+
+# Other 
+*checkpoint
+*tfevents*
+*.data-00000-of-00001
+*.index
+*.meta
+*.local
+train-images-idx3-ubyte
+train-labels-idx1-ubyte 
+t10k-labels-idx1-ubyte
+t10k-images-idx3-ubyte
+code/ch14/checkpoint
+code/ch12/mnist_scaled.npz
+docs/equations/*.aux
+docs/equations/*.log
+docs/equations/*.out
+docs/equations/*.synctex.gz
+code/ch08/aclImdb/
+
+.ipynb_checkpoints
+.DS_Store
+code/datasets/movie/aclImdb_v1.tar.gz
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
-*$py.class
 
 # C extensions
 *.so
 
 # Distribution / packaging
 .Python
+env/
 build/
 develop-eggs/
 dist/
@@ -19,13 +67,9 @@ lib64/
 parts/
 sdist/
 var/
-wheels/
-pip-wheel-metadata/
-share/python-wheels/
 *.egg-info/
 .installed.cfg
 *.egg
-MANIFEST
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
@@ -40,16 +84,12 @@ pip-delete-this-directory.txt
 # Unit test / coverage reports
 htmlcov/
 .tox/
-.nox/
 .coverage
 .coverage.*
 .cache
 nosetests.xml
 coverage.xml
-*.cover
-*.py,cover
-.hypothesis/
-.pytest_cache/
+*,cover
 
 # Translations
 *.mo
@@ -57,73 +97,9 @@ coverage.xml
 
 # Django stuff:
 *.log
-local_settings.py
-db.sqlite3
-db.sqlite3-journal
-
-# Flask stuff:
-instance/
-.webassets-cache
-
-# Scrapy stuff:
-.scrapy
 
 # Sphinx documentation
 docs/_build/
 
 # PyBuilder
 target/
-
-# Jupyter Notebook
-.ipynb_checkpoints
-
-# IPython
-profile_default/
-ipython_config.py
-
-# pyenv
-.python-version
-
-# pipenv
-#   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
-#   However, in case of collaboration, if having platform-specific dependencies or dependencies
-#   having no cross-platform support, pipenv may install dependencies that don't work, or not
-#   install all needed dependencies.
-#Pipfile.lock
-
-# PEP 582; used by e.g. github.com/David-OConnor/pyflow
-__pypackages__/
-
-# Celery stuff
-celerybeat-schedule
-celerybeat.pid
-
-# SageMath parsed files
-*.sage.py
-
-# Environments
-.env
-.venv
-env/
-venv/
-ENV/
-env.bak/
-venv.bak/
-
-# Spyder project settings
-.spyderproject
-.spyproject
-
-# Rope project settings
-.ropeproject
-
-# mkdocs documentation
-/site
-
-# mypy
-.mypy_cache/
-.dmypy.json
-dmypy.json
-
-# Pyre type checker
-.pyre/
